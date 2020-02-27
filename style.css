@@ -1,3 +1,11 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+    }
 body {
     text-align: center;
     text-decoration: none;
@@ -40,10 +48,35 @@ nav {
     padding: 20px 0;
     text-transform: uppercase;
 }
+nav a {
+    border-bottom: 2px solid transparent;
+}
+a:hover {
+    border-color: white;
+}
 main {
     width: 850px;
     margin: 35px auto;
 }
 img {
     margin: 40px 8px 0; 
+}
+footer {
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+.copyright {
+    float: left;
+}
+.message {
+    float: right;
+}
+.name {
+    color: #F25B31;
+    font-weight: 700;
 }
