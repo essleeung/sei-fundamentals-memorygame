@@ -80,3 +80,15 @@ footer {
     color: #F25B31;
     font-weight: 700;
 }
+button {
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 5px;
+    color: #F25B31;
+    font-weight: 700;
+    border: 2px solid rgb(194, 194, 194);
+}
+button:hover {
+    background-color: #F25B31;
+    color: white;
+}
